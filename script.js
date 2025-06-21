@@ -1,5 +1,3 @@
-console.log("Hello World");
-
 function getComputerChoice() {
     rand = Math.random();
     if (rand >= 0 && rand <= 0.33) {
@@ -13,4 +11,10 @@ function getComputerChoice() {
     }
 
     return string;
+}
+
+function getHumanChoice(){
+    choice = window.prompt("Think fast chuckle nuts! (rock, paper, or scissors?)");
+
+    return choice;
 }
